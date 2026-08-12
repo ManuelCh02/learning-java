@@ -21,7 +21,7 @@ public class Main {
 
         Pelicula pelicula = new Pelicula(nombre, duracion, genero, calificacion);
 
-        System.out.println(pelicula.obtenerFichaTecnica());
+        pelicula.getTitulo();
 
         // Usuario
         Usuario usuario = new Usuario("Juan", "juan@gmail.com");
