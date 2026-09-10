@@ -2,7 +2,7 @@ package play.project.contenido;
 
 import java.time.LocalDate;
 
-public class Pelicula {
+public class  Pelicula {
     private String titulo; // Si no se asigna es null
     private String descripcion;
     private int duracion;
@@ -29,7 +29,7 @@ public class Pelicula {
     }
 
     public String obtenerFichaTecnica() {
-        return titulo + " (" + fechaEstreno.getYear() + fechaEstreno.getMonthValue() + ")\n" +
+        return "🍿🎦 " + titulo + " (" + fechaEstreno.getYear() + fechaEstreno.getMonthValue() + ")\n" +
                 "Género: " + genero + "\n" +
                 "Calificación: " + calificacion + "/5";
     }
